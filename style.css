@@ -1,0 +1,226 @@
+.navbar {
+  background-color: #f8f9fa; 
+  padding: 10px 20px; 
+}
+
+.navbar-brand {
+  display: flex; 
+  align-items: center;  
+  color: #255341; 
+  text-decoration: none; 
+}
+
+.navbar-title {
+  font-family: "Allura", serif; 
+  font-size: 3rem; 
+  color: #255341 !important; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0; 
+  margin-left: 10px; 
+}
+
+.navbar-title {
+  display: inline-block;
+  margin-left: 10px; 
+}
+
+.navbar-brand img {
+  width: 55px; 
+  height: 40px; 
+  object-fit: contain; 
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa; 
+  color: #333; 
+}
+
+.navbar a {
+  color: #7389A1; 
+}
+
+.navbar a:hover {
+  color: #1a3a2d; 
+}
+
+.carousel img {
+  object-fit: cover; 
+  height: 400px;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.card h5 {
+  color: #1a3a2d; 
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d; 
+  font-size: 0.9rem;
+}
+
+.card-title {
+  text-transform: uppercase; 
+  font-size: 1.2rem;
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain; 
+  background-color: #f8f9fa;
+}
+
+footer {
+  background-color: #343a40; 
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.container.my-5 {
+  margin-bottom: 80px;
+}
+
+.card.h-100.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 20px;
+  min-height: 300px; 
+  border: 1px solid #ddd; 
+}
+
+.card ul {
+  text-align: left; 
+  padding: 0; 
+  list-style-type: none; 
+}
+
+.card ul li {
+  padding: 5px 0; /
+  position: relative;  
+}
+
+.card ul li::before {
+  content: "✔" ; 
+  color: #CBD6E4 ; 
+  font-weight: bold ;
+  left: -20px ; 
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.7rem;
+}
+
+.card-text {
+  line-height: 1.6;
+}
+
+.navbar-title {
+  font-size: 2rem;  
+  font-weight: bold; 
+  color: #7389A1; 
+  vertical-align: middle; 
+}
+
+.card-header  {
+  background-color: #D1DCD7; 
+  color: white; 
+}
+
+.badge {
+  background-color: #CBD6E4; 
+  color: #7389A1; 
+}
+
+
+.card-header h2 {
+  color: #255341; 
+}
+
+
+#secțiune4 {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+}
+
+#secțiune4 h2 {
+  color: #1a3a2d;
+  font-weight: bold;
+}
+
+#secțiune4 p {
+  color: #6c757d;
+}
+
+#secțiune4 a {
+  color: #1a3a2d;
+  text-decoration: none;
+}
+
+#secțiune4 a:hover {
+  text-decoration: underline;
+}
+
+#secțiune4 .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+#secțiune4 .btn {
+  background-color: #1a3a2d;
+  color: #fff;
+}
+
+#secțiune4 .btn:hover {
+  background-color: #145a38;
+}
+
+#secțiune4 .fa {
+  color: #1a3a2d;
+}
+
+#secțiune4 iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn, .card {
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+
+#secțiune4 .form-control:focus {
+  border-color: #255341;
+  box-shadow: 0 0 5px rgba(37, 83, 65, 0.5);
+}
+
